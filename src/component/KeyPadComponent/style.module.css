@@ -1,0 +1,25 @@
+.button {
+  display: block;
+  background-color: #bbb;
+}
+
+button {
+  width: 22%;
+  height: 60px;
+  font-size: 26px;
+}
+@media (min-width: 760px) {
+  button {
+    width: 24%;
+    height: 60px;
+    font-size: 28px;
+  }
+}
+
+@media (min-width: 1200px) {
+  button {
+    width: 25%;
+    height: 60px;
+    font-size: 30px;
+  }
+}

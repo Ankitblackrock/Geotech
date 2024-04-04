@@ -1,0 +1,52 @@
+.logoutPage {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #b1c4c4;
+}
+
+.logoutBtn {
+  width: 52px;
+  height: 24px;
+  background-color: red;
+  padding: 2px;
+  color: white;
+  border-radius: 4px;
+  margin-right: 7px;
+  cursor: pointer;
+}
+
+.layoutsetup {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(
+    315deg,
+    hsla(284, 88%, 50%, 1) 0%,
+    hsla(202, 100%, 65%, 1) 76%
+  );
+}
+
+.boxContainer {
+  width: 100%;
+  height: 100vh;
+}
+
+@media (max-width: 474px) {
+  .boxContainer {
+    width: 100%;
+    height: 150vh;
+  }
+}
+
+.box {
+  display: inline-block;
+  height: calc(6.125vw - 4px);
+  width: calc(7.5% - 3px);
+  padding: 0.6vw 0;
+  background-color: red;
+  margin: 10px;
+}

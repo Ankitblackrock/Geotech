@@ -1,0 +1,18 @@
+.loginPage {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #b1c4c4;
+}
+
+.loginBtn {
+  width: 52px;
+  height: 24px;
+  background-color: green;
+  padding: 2px;
+  color: white;
+  border-radius: 4px;
+  margin-right: 7px;
+  cursor: pointer;
+}
